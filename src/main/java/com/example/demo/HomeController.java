@@ -31,11 +31,6 @@ public class HomeController {
         return "login";
     }
 
-    @PostMapping("/logout")
-    public String logout() {
-        return "redirect:/login?logout=true";
-    }
-
 
     @RequestMapping("/admin")
     public String admin () {
